@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-image: url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*---NAV BAR---*/
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+}
+
+.nav-logo {
+    width: 150px;
+    margin-right: 40px;
+}
+
+.nav-main {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0px;
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 15px;
+}
+
+.nav-main ul.nav-menu {
+    flex: content;
+    margin-left: 10 px;
+}
+
+.nav-main ul li a:hover {
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+
+.nav-main ul li a {
+    padding: 6px;
+}
+
+hr {
+    padding: 1px;
+    background-color: #616161;
+}
