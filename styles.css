@@ -6,6 +6,7 @@
 
 .secciones {
     margin: auto;
+    margin-top: 20px;
     margin-bottom: 10px;
     width: 50%;
     color: white;
@@ -26,7 +27,7 @@ body {
 }
 
 
-/*---NAV BAR---*/
+/* Navbar */
 
 a {
     color: white;
@@ -86,7 +87,7 @@ hr {
 }
 
 
-/*---Hero---*/
+/* Hero */
 
 .slider_block {
     width: 100%;
@@ -169,7 +170,7 @@ hr {
 }
 
 
-/*---Experience---*/
+/* Experience */
 
 .img-logo {
     background-color: white;
@@ -213,6 +214,7 @@ hr {
     opacity: 0.8;
     border-radius: 10px;
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 .exp a {
@@ -225,4 +227,50 @@ hr {
 
 .exp a:hover {
     text-decoration: underline;
+}
+
+
+/* About */
+
+.about_m {
+    width: 100%;
+    margin: 10px 20px;
+}
+
+.about_m h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.contenido {
+    width: 90%;
+    background-color: #00AB84;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contenido li {
+    color: #000000;
+}
+
+.about_m h4 {
+    margin: 20px 10px;
+    color: white;
+}
+
+#foto_p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
 }
