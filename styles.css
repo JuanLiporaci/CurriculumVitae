@@ -4,6 +4,17 @@
     padding: 0;
 }
 
+.secciones {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 50%;
+    color: white;
+    background-color: #00AB84;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
 body {
     color: white;
     background-image: url("img/fondo.jpg");
@@ -155,4 +166,63 @@ hr {
     margin: 20px;
     color: black;
     position: absolute;
+}
+
+
+/*---Experience---*/
+
+.img-logo {
+    background-color: white;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+}
+
+.exp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin: 0px 15px;
+}
+
+.exp h3 {
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+.c-con {
+    margin-top: 20px;
+    text-align: center;
+    font-size: larger;
+}
+
+.exp h5 {
+    font-size: 15px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+#cuadro {
+    background-color: #00AB84;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.exp a {
+    padding: 15px 5px;
+    text-transform: uppercase;
+    color: #f6f6f6;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.exp a:hover {
+    text-decoration: underline;
 }
